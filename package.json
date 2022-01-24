@@ -1,0 +1,27 @@
+{
+  "name": "antdv-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "ant-design-vue": "^2.2.8",
+    "chart.js": "^3.7.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.4.0",
+    "vue": "^3.2.25",
+    "vue-github-buttons": "^3.1.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "sass": "^1.49.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
