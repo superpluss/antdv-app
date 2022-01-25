@@ -128,7 +128,8 @@
 				background-color: transparent;
 			}
 
-			a {
+			span a {
+				display: block;
 				padding: $submenu-links-p;
 				color: $color-gray-12;
 				border-radius: 8px;
@@ -213,6 +214,7 @@
 			}
 			.ant-menu-item {
 				a {
+					display: block;
 					padding: 10px 10px;
 					border-radius: 6px;
 					margin: 7px 0;
